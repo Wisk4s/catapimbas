@@ -1,0 +1,46 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "vito",
+      "num_inscricao": 123,
+      "curso": "informática"
+    },
+    {
+      "id": 2,
+      "nome": "madson",
+      "num_inscricao": 456,
+      "curso": "informática"
+    },
+    {
+      "nome": "marineide ",
+      "num_inscricao": "99876",
+      "curso": "agropecuária",
+      "id": 3
+    },
+    {
+      "nome": "ronaldo ",
+      "num_inscricao": "4567",
+      "curso": "agropecuária",
+      "id": 4
+    },
+    {
+      "nome": "edgar",
+      "num_inscricao": "9148712478",
+      "curso": "informática",
+      "id": 5
+    },
+    {
+      "nome": "seupai",
+      "num_inscricao": "123123",
+      "curso": "informática",
+      "id": 6
+    },
+    {
+      "nome": "victor",
+      "num_inscricao": "123123",
+      "curso": "agropecuária",
+      "id": 7
+    }
+  ]
+}

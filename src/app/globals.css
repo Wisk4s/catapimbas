@@ -77,6 +77,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: monospace;
 }
 
 html,
@@ -104,4 +105,89 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.form{
+  display: grid;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.input{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150%;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+}
+
+button{
+  padding: 10px;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 90px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;
+}
+
+.cadastro{
+  margin-top: 80px;
+  margin-right: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.voltar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 0px;
+}
+
+.aluno{
+  display: grid;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.cadastrolink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
